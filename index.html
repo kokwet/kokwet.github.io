@@ -1,81 +1,343 @@
 <!DOCTYPE HTML>
-<!--
-	Arcana by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Kokwet CBO: Community Development in Rural Kenya</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="Education, Economic Development & Women Empowerment in Rural Kenya" />
-		<meta name="keywords" content="education in kenya, community development, women empowerment, kenya, rural kenya" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-		</noscript>
-		
-		<script>
-			 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <head>
+        <title>Kokwet CBO: Community Development in Rural Kenya</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <meta name="description" content="Education, Economic Development & Women Empowerment in Rural Kenya" />
+        <meta name="keywords" content="education in kenya, community development, women empowerment, kenya, rural kenya" />
 
-  			ga('create', 'UA-55437913-1', 'auto');
-  			ga('send', 'pageview');
+        <!-- js scripts -->
+        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/grayscale.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.min.js"></script>
 
-		</script>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body>
+        <!-- stylesheets -->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-		<!-- Header -->
-			<div id="header">
-						
-				<!-- Logo -->
-					<h4><a id="logo">Site under construction</a></h4>
-			
-		<!-- Gigantic Heading -->
-			<section class="wrapper style2">
-				<div class="container">
-					<header class="major">
-						<h2>Kokwet Community Based Organization</h2>
-						<h3>Community members empowering community members.</h3>
-						<p>We mobilize resources to improve economic mobility of community members in Emurua-Dikir District
-						in Narok County, Kenya.</p>
-					</header>
-				</div>
-			</section>
-			
-		<!-- CTA -->
-			<section id="cta" class="wrapper style3">
-				<div class="container">
-					<header>
-						<h2>Connect with us about rural community development!</h2><br>
-						<a href="mailto:admin@kokwet.org" class="button">admin@kokwet.org</a>
-					</header>
-				</div>
-			</section>
+    </head>
+    <body data-spy="scroll" data-target=".navbar-fixed-top">
+        <!-- ========================================================================== --> 
 
-		<!-- Footer -->
-			<div id="footer">
-				<!-- Icons -->
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<!--	<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li> -->
-						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-					</ul>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-custom" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header panel-body">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand-custom" href="index.html">Community Partnerships</a>
+                </div>
 
-			</div>
+                <!-- Collect the nav links, forms, and other content for toggling about the area, make tabs personal about, people, program, area and how I can help-->
+                <div class="collapse navbar-collapse panel-body" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="page-scroll" href="#home"> <span class="glyphicon glyphicon-home"></span></a></li>
+                        <li><a class="page-scroll" href="#programs">Our Programs</a></li>
+                        <li><a class="page-scroll" href="#community">Our Community</a></li>
+                        <li><a class="page-scroll" href="#contact">Get Involved</a></li>
 
-	</body>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!-- ========================================================================== --> 
+
+        <section class="banner-image" id="home">
+            <div class="layer">
+                <div class="container">
+                    <!-- headline text section-->
+                    <div class="col-lg-8 col-md-8 col-sm-7 banner-container-left">
+                        <div class="row row-body">
+                            <div class="panel-body">
+                                <h1 class="banner-header">Promoting Education, Health and Community Development in Rural Kenya</h1>
+                                <h2 class="banner-subheader">Community members empowering community members</h2>
+                            </div>
+                            <div class="panel-body">
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- contact form text section-->   
+                    <div class="col-lg-4 col-md-4 col-sm-5 banner-container-right">
+                        <div class="row row-body">
+                            <div class="panel-body">
+                                <h3>PARTNER WITH US!</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa facilis, labore debitis nesciunt ipsam odio corporis architecto reiciendis voluptas ab quibusdam ratione rerum tempore voluptatibus libero cumque dignissimos vero hic!</p>
+                                <p>Culpa facilis, labore debitis nesciunt ipsam odio corporis architecto reiciendis voluptas ab quibusdam ratione rerum tempore voluptatibus libero cumque dignissimos vero hic!</p>
+                                <button class="btn btn-block btn-primary-custom-lg" href="#about" role="button">Learn more!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================================== -->
+        <section class="section section-1" id="programs">
+            <div class="container">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="row row-body">
+                        <div class="panel panel-default">
+                            <div class="panel-header">
+                                <img class="img-rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 100%; height: 140px;">
+                            </div>
+                            <div class="panel-body">
+                                <h2 class="text-center">Heading</h2>
+                                <p  class="text-center">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                            </div> 
+                            <div class="panel-body text-center">
+                                <a class="btn btn-primary-custom btn-center" href="#" role="button">View details &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="row row-body">
+                        <div class="panel panel-default">
+                            <div class="panel-header">
+                                <img class="img-rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 100%; height: 140px;">
+                            </div>
+                            <div class="panel-body">
+                                <h2 class="text-center">Heading</h2>
+                                <p  class="text-center">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                            </div> 
+                            <div class="panel-body text-center">
+                                <a class="btn btn-primary-custom btn-center" href="#" role="button">View details &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="row row-body">
+                        <div class="panel panel-default">
+                            <div class="panel-header">
+                                <img class="img-rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 100%; height: 140px;">
+                            </div>
+                            <div class="panel-body">
+                                <h2 class="text-center">Heading</h2>
+                                <p  class="text-center">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                            </div> 
+                            <div class="panel-body text-center">
+                                <a class="btn btn-primary-custom btn-center" href="#" role="button">View details &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="row row-body">
+                        <div class="panel panel-default">
+                            <div class="panel-header">
+                                <img class="img-rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 100%; height: 140px;">
+                            </div>
+                            <div class="panel-body">
+                                <h2 class="text-center">Heading</h2>
+                                <p  class="text-center">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                            </div> 
+                            <div class="panel-body text-center">
+                                <a class="btn btn-primary-custom btn-center" href="#" role="button">View details &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================================== -->
+
+        <section class="section section-2" id="community">
+            <div class="container">
+                <div class="panel-body">
+                    <h2 class="section-heading text-center">Community members connecting community members to opportunites for development</h2>
+                </div>
+                <!-- column-1 -->
+                <div class="col-md-6 col-sm-6">
+                    <div class="row row-body">
+                        <div class="panel panel-info panel-body">
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="panel-body text-center">
+                                        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="panel-body panel-info">
+                                        <p class="text-center"> “Once you educate the boys, they tend to leave the villages and go search for work in the cities, but the girls stay home, become leaders in the community, and pass on what they’ve learned. If you really want to change a culture, to empower women, improve basic hygiene and health care, and fight high rates of infant mortality, the answer is to educate girls.”
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-body">
+                        <div class="panel panel-info panel-body">
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="panel-body text-center">
+                                        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="panel-body panel-info">
+                                        <p class="text-center"> “Once you educate the boys, they tend to leave the villages and go search for work in the cities, but the girls stay home, become leaders in the community, and pass on what they’ve learned. If you really want to change a culture, to empower women, improve basic hygiene and health care, and fight high rates of infant mortality, the answer is to educate girls.”
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-body">
+                        <div class="panel panel-info panel-body">
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="panel-body text-center">
+                                        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="panel-body panel-info">
+                                        <p class="text-center"> “Once you educate the boys, they tend to leave the villages and go search for work in the cities, but the girls stay home, become leaders in the community, and pass on what they’ve learned. If you really want to change a culture, to empower women, improve basic hygiene and health care, and fight high rates of infant mortality, the answer is to educate girls.”
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- column-2 -->
+                <div class="col-md-6 col-sm-6">
+                    <div class="row row-body">
+                        <div class="panel panel-info panel-body">
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="panel-body text-center">
+                                        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="panel-body panel-info">
+                                        <p class="text-center"> “Once you educate the boys, they tend to leave the villages and go search for work in the cities, but the girls stay home, become leaders in the community, and pass on what they’ve learned. If you really want to change a culture, to empower women, improve basic hygiene and health care, and fight high rates of infant mortality, the answer is to educate girls.”
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-body">
+                        <div class="panel panel-info panel-body">
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="panel-body text-center">
+                                        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="panel-body panel-info">
+                                        <p class="text-center"> “Once you educate the boys, they tend to leave the villages and go search for work in the cities, but the girls stay home, become leaders in the community, and pass on what they’ve learned. If you really want to change a culture, to empower women, improve basic hygiene and health care, and fight high rates of infant mortality, the answer is to educate girls.”
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-body">
+                        <div class="panel panel-info panel-body">
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="panel-body text-center">
+                                        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="panel-body panel-info">
+                                        <p class="text-center"> “Once you educate the boys, they tend to leave the villages and go search for work in the cities, but the girls stay home, become leaders in the community, and pass on what they’ve learned. If you really want to change a culture, to empower women, improve basic hygiene and health care, and fight high rates of infant mortality, the answer is to educate girls.”
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================================== -->
+
+        <section class="section section-last" id="contact" >
+            <div class="container">
+                <div class="panel-body">
+                    <h2 class="section-3-heading text-center">Connect with us about rural community development.</h2>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-md-offset-2 col-sm-offset-2">
+                    <div class="row">
+                        <div class="panel-body">
+                            <form role="form">
+                                <input type="name" class="form-control custom-input" placeholder="Name" required>
+                                <input type="email" class="form-control custom-input" placeholder="Email" required>
+                                <textarea class="form-control custom-input" rows="3" placeholder="Message" required></textarea>
+                                <button type="submit" class="btn btn-lg btn-primary btn-block">SUBMIT</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="row row-body">
+                        <div class="panel-body">
+                            <address class="address">
+                                Kokwet Community Partnerships<br>
+                                Njipiship Center<br>
+                                Trans-Mara East District<br>
+                                Narok County, Kenya<br>
+                            </address>
+                        </div>
+                        <div class="panel-body">
+                            <address class="address">
+                                info@kokwet.org<br>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================================== -->
+
+        <!--<section class="section">
+<div id="map"></div>
+</section>-->
+
+        <!-- ========================================================================== -->
+        <footer class="footer">
+            <div class="container">
+                <div class="text-center">
+                    <div class="footer-icon">
+                        <a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a>
+                        <a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a>
+                        <a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a>
+                    </div> 
+                    <a><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> Kokwet Community Based Organization 2014</a>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
