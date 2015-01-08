@@ -178,7 +178,6 @@ p{
 .banner-subheader{
     color: #fff;
     font-size: 32px;
-    font-weight: 300;
 }
 
 .banner-container-left{
@@ -192,9 +191,17 @@ p{
     color: #fff;
     
 }
+.banner-container-right h1{
+    margin: 0;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 700;
+    text-align: center;
+}
 .banner-container-right p{
-    font-size: 48px;
-    font-weight: 100;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 300;
     color: #fff;
     text-align: center;
 }
