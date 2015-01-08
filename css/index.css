@@ -193,17 +193,18 @@ p{
 }
 .banner-container-right h1{
     margin: 0;
-    font-size: 40px;
+    font-size: 36px;
     line-height: 44px;
     font-weight: 700;
     text-align: center;
 }
 .banner-container-right p{
-    font-size: 40px;
+    font-size: 36px;
     line-height: 44px;
     font-weight: 300;
     color: #fff;
     text-align: center;
+    margin: 0;
 }
 
 /* =========================== */
@@ -231,7 +232,7 @@ p{
 .btn-primary-custom-lg{
     background: #FF4081;
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .btn-primary-custom:hover, .btn-primary-custom-lg:hover{
@@ -281,6 +282,11 @@ p{
 #programs p{
     color: #727272;
 }
+
+#community h4{
+    color: #727272;
+}
+
 /* =========================== */
 
 .footer{
