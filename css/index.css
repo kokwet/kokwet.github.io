@@ -144,8 +144,17 @@ p{
     border-radius: 5px;
 }
 
-.navbar-nav>ul{
-    background: #eee;
+@media only screen and (max-width: 991px) {
+    .navbar-custom a{
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0;
+        font-weight: 600;
+        color: #212121; 
+    }
+    .collapsing, .in {
+        background-color: #f7f7f7;
+    }
 }
 
 .navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus {
