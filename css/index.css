@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p{
     color: #212121; 
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /* =========================== */
@@ -120,9 +120,6 @@ p{
     height: 80px;
 }
 .navbar-custom a{
-    font-size: 24px;
-    line-height: 48px;
-    margin: 0;
     font-weight: 600;
     color: #212121; 
 }
@@ -130,6 +127,18 @@ p{
 .navbar-custom a:hover{
     color:#0288D1;
     text-decoration: none;
+}
+
+.navbar-custom h1{
+    margin: 0;
+    font-size: 32px;
+    line-height: 28px;
+
+}
+.navbar-custom h2{
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px; 
 }
 
 #bs-example-navbar-collapse-1 a{
@@ -195,10 +204,10 @@ p{
 
 .banner-container-right{
     background: rgba(156,39,176,0.5);
-/*    #9C27B0*/
+    /*    #9C27B0*/
     height: 500px;
     color: #fff;
-    
+
 }
 .banner-container-right h1{
     margin: 0;
@@ -218,21 +227,6 @@ p{
 
 /* =========================== */
 
-.form-header{
-    color:#008ed6;
-    font-size:18px;
-}
-
-.form-panel{
-    background: #eee;
-}
-.custom-input{ 
-    color: #191919;
-    margin:12px 0 12px 0;
-}
-
-/* =========================== */
-
 /* buttons */
 .btn-primary-custom{
     background: #FF4081;
@@ -247,37 +241,62 @@ p{
 .btn-primary-custom:hover, .btn-primary-custom-lg:hover{
     color: #EEE;
 }
+.btn-primary-custom:focus, .btn-primary-custom-lg:focus{
+    color: #fff;
+}
 
 /* =========================== */
 
 /* panels */
 .section{
-/*    padding: 100px 0 100px 0;*/
+    /*    padding: 100px 0 100px 0;*/
 }
 
-.section-1{
+.section-programs{
     background: #EEE;
 }
 
-.section-2{
-    background: 
+.section-map{
+    background: url('../images/kapkoros-background.png'); 
+    background-repeat: no-repeat;
+    background-size: 1280px;
+    min-height: 600px;
 }
 
-.section-last{
+.map-layer{
+    background-color:rgba(0,0,0, 0.5);
+    width: 100%;
+    min-height: 600px;
+}
+
+.section-map h1{
+    color: #fff;
+}
+.section-map p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.section-contact{
     background: #333;
-    color: white;
+    color: #000;
+}
+
+.section-contact h1{
+    color: #fff;
+}
+
+.section-contact p{
+    line-height: 24px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
 }
 
 .section-heading{
     font-size: 36px;
     font-weight: 300;
-    color: #191919;
-}
-
-.section-3-heading{
-    font-size: 36px;
-    font-weight: 300;
-    color: #fff;
+    text-align: center;
 }
 
 .nopadding{
@@ -288,12 +307,8 @@ p{
     padding: 12px;
 }
 
-#programs p{
-    color: #727272;
-}
-
-#community h4{
-    color: #727272;
+.custom-input{
+    margin-bottom: 12px;
 }
 
 /* =========================== */
@@ -302,12 +317,6 @@ p{
     padding: 50px 0 50px 0;
     background: #000;
     color: #fff;
-}
-
-.address{
-    line-height: 24px;
-    font-weight: 300;
-    font-size: 16px;
 }
 
 /* =========================== */
