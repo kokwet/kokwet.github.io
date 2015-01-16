@@ -299,6 +299,11 @@ p{
     text-align: center;
 }
 
+.section-secondary-text{
+    color:#727272;
+    font-style: italic;
+}
+
 .nopadding{
     padding: 0 !important;    
 }
@@ -307,7 +312,11 @@ p{
     padding: 12px;
 }
 
-.custom-input{
+.section-contact input{
+    margin-bottom: 12px;
+}
+
+.section-contact textarea{
     margin-bottom: 12px;
 }
 
