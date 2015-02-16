@@ -10,6 +10,12 @@
 .secondary-text-color{ color: #727272; /* rgb(3,169,244) */}
 .divider-color{ border-color: #B6B6B6; /* rgb(3,169,244) */}
 
+/*
+#7D1935
+#4A96AD
+#F5F3EE
+*/
+
 
 /* =========================== */
 /* Fonts - Open Sans */
@@ -229,11 +235,11 @@ p{
 
 /* buttons */
 .btn-primary-custom{
-    background: #FF4081;
+    background: #7D1935;
     color: #fff;
 }
 .btn-primary-custom-lg{
-    background: #FF4081;
+    background: #7D1935;
     color: #fff;
     font-size: 20px;
 }
@@ -253,7 +259,12 @@ p{
 }
 
 .section-programs{
-    background: #EEE;
+    background:#F5F3EE;
+}
+
+.program-img{
+    width: 100%;
+    max-width: 400px;
 }
 
 .section-map{
@@ -268,12 +279,12 @@ p{
 }
 
 .community-icon{
-    font-size: 96px;
-    color:#333;
+    font-size: 100px;
+    color:#7D1935;
 }
 
 .section-leaders{
-    background: #EEE;
+    background: #F5F3EE;
 }
 
 .social-media-icon{
@@ -282,7 +293,7 @@ p{
 }
 
 .section-contact{
-    background: #333;
+    background: #404040;
     color: #000;
 }
 
@@ -298,9 +309,8 @@ p{
 }
 
 .section-heading{
-    font-size: 36px;
-    font-weight: 300;
     text-align: center;
+    color: #4A96AD;
     margin: 0;
 }
 
@@ -327,6 +337,31 @@ p{
 
 .section-contact button{
     margin-bottom: 12px;
+}
+
+.panel-core-values{
+    background: #F5F3EE;
+/*        #7a868c;*/
+}
+
+.core-values {
+    counter-reset: core-values-counter;
+}
+.core-values dt:before {
+    content: counter(core-values-counter);
+    counter-increment:core-values-counter;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: 700;
+    font-size: 4em;
+    color: #7D1935;
+    padding: 0;
+}
+.core-values dt{
+    padding: 25px 0 25px 50px;
+    position: relative;
+    font-weight: 500;
 }
 
 /* =========================== */
