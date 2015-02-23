@@ -214,8 +214,8 @@ p{
 }
 
 .banner-container-right{
-    background: #4A96AD;
-    /*    background: rgba(125, 25, 53,0.5);*/
+    /*    background: #4A96AD;*/
+    background: rgba(74,150,173,0.7);
     /*    #9C27B0*/
     height: 500px;
     color: #fff;
